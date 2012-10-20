@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D30331EE159F7DDB00EF01B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30331ED159F7DDB00EF01B2 /* UIKit.framework */; };
+		D30331F0159F7DDB00EF01B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30331EF159F7DDB00EF01B2 /* Foundation.framework */; };
+		D30331F2159F7DDB00EF01B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30331F1159F7DDB00EF01B2 /* CoreGraphics.framework */; };
+		D30331F8159F7DDB00EF01B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D30331F6159F7DDB00EF01B2 /* InfoPlist.strings */; };
+		D30331FA159F7DDB00EF01B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D30331F9159F7DDB00EF01B2 /* main.m */; };
+		D30331FE159F7DDB00EF01B2 /* DAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D30331FD159F7DDB00EF01B2 /* DAAppDelegate.m */; };
+		D3033201159F7DDB00EF01B2 /* DAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3033200159F7DDB00EF01B2 /* DAViewController.m */; };
+		D3033204159F7DDB00EF01B2 /* DAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3033202159F7DDB00EF01B2 /* DAViewController.xib */; };
+		D32B8764159FC0F300C1FA91 /* DAPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = D32B8763159FC0F300C1FA91 /* DAPerson.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D30331E9159F7DDB00EF01B2 /* ObjC-MemoryManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ObjC-MemoryManagement.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30331ED159F7DDB00EF01B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D30331EF159F7DDB00EF01B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D30331F1159F7DDB00EF01B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D30331F5159F7DDB00EF01B2 /* ObjC-MemoryManagement-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjC-MemoryManagement-Info.plist"; sourceTree = "<group>"; };
+		D30331F7159F7DDB00EF01B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D30331F9159F7DDB00EF01B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D30331FB159F7DDB00EF01B2 /* ObjC-MemoryManagement-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjC-MemoryManagement-Prefix.pch"; sourceTree = "<group>"; };
+		D30331FC159F7DDB00EF01B2 /* DAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAAppDelegate.h; sourceTree = "<group>"; };
+		D30331FD159F7DDB00EF01B2 /* DAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAAppDelegate.m; sourceTree = "<group>"; };
+		D30331FF159F7DDB00EF01B2 /* DAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAViewController.h; sourceTree = "<group>"; };
+		D3033200159F7DDB00EF01B2 /* DAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAViewController.m; sourceTree = "<group>"; };
+		D3033203159F7DDB00EF01B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DAViewController.xib; sourceTree = "<group>"; };
+		D32B8762159FC0F300C1FA91 /* DAPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAPerson.h; sourceTree = "<group>"; };
+		D32B8763159FC0F300C1FA91 /* DAPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAPerson.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D30331E6159F7DDA00EF01B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30331EE159F7DDB00EF01B2 /* UIKit.framework in Frameworks */,
+				D30331F0159F7DDB00EF01B2 /* Foundation.framework in Frameworks */,
+				D30331F2159F7DDB00EF01B2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D30331DE159F7DDA00EF01B2 = {
+			isa = PBXGroup;
+			children = (
+				D30331F3159F7DDB00EF01B2 /* ObjC-MemoryManagement */,
+				D30331EC159F7DDB00EF01B2 /* Frameworks */,
+				D30331EA159F7DDB00EF01B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D30331EA159F7DDB00EF01B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D30331E9159F7DDB00EF01B2 /* ObjC-MemoryManagement.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D30331EC159F7DDB00EF01B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D30331ED159F7DDB00EF01B2 /* UIKit.framework */,
+				D30331EF159F7DDB00EF01B2 /* Foundation.framework */,
+				D30331F1159F7DDB00EF01B2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D30331F3159F7DDB00EF01B2 /* ObjC-MemoryManagement */ = {
+			isa = PBXGroup;
+			children = (
+				D32B8762159FC0F300C1FA91 /* DAPerson.h */,
+				D32B8763159FC0F300C1FA91 /* DAPerson.m */,
+				D30331FC159F7DDB00EF01B2 /* DAAppDelegate.h */,
+				D30331FD159F7DDB00EF01B2 /* DAAppDelegate.m */,
+				D30331FF159F7DDB00EF01B2 /* DAViewController.h */,
+				D3033200159F7DDB00EF01B2 /* DAViewController.m */,
+				D3033202159F7DDB00EF01B2 /* DAViewController.xib */,
+				D30331F4159F7DDB00EF01B2 /* Supporting Files */,
+			);
+			path = "ObjC-MemoryManagement";
+			sourceTree = "<group>";
+		};
+		D30331F4159F7DDB00EF01B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D30331F5159F7DDB00EF01B2 /* ObjC-MemoryManagement-Info.plist */,
+				D30331F6159F7DDB00EF01B2 /* InfoPlist.strings */,
+				D30331F9159F7DDB00EF01B2 /* main.m */,
+				D30331FB159F7DDB00EF01B2 /* ObjC-MemoryManagement-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D30331E8159F7DDA00EF01B2 /* ObjC-MemoryManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3033207159F7DDB00EF01B2 /* Build configuration list for PBXNativeTarget "ObjC-MemoryManagement" */;
+			buildPhases = (
+				D30331E5159F7DDA00EF01B2 /* Sources */,
+				D30331E6159F7DDA00EF01B2 /* Frameworks */,
+				D30331E7159F7DDA00EF01B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ObjC-MemoryManagement";
+			productName = "ObjC-MemoryManagement";
+			productReference = D30331E9159F7DDB00EF01B2 /* ObjC-MemoryManagement.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D30331E0159F7DDA00EF01B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D30331E3159F7DDA00EF01B2 /* Build configuration list for PBXProject "ObjC-MemoryManagement" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D30331DE159F7DDA00EF01B2;
+			productRefGroup = D30331EA159F7DDB00EF01B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D30331E8159F7DDA00EF01B2 /* ObjC-MemoryManagement */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D30331E7159F7DDA00EF01B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30331F8159F7DDB00EF01B2 /* InfoPlist.strings in Resources */,
+				D3033204159F7DDB00EF01B2 /* DAViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D30331E5159F7DDA00EF01B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30331FA159F7DDB00EF01B2 /* main.m in Sources */,
+				D30331FE159F7DDB00EF01B2 /* DAAppDelegate.m in Sources */,
+				D3033201159F7DDB00EF01B2 /* DAViewController.m in Sources */,
+				D32B8764159FC0F300C1FA91 /* DAPerson.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D30331F6159F7DDB00EF01B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D30331F7159F7DDB00EF01B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D3033202159F7DDB00EF01B2 /* DAViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3033203159F7DDB00EF01B2 /* en */,
+			);
+			name = DAViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3033205159F7DDB00EF01B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3033206159F7DDB00EF01B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3033208159F7DDB00EF01B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjC-MemoryManagement/ObjC-MemoryManagement-Prefix.pch";
+				INFOPLIST_FILE = "ObjC-MemoryManagement/ObjC-MemoryManagement-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D3033209159F7DDB00EF01B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjC-MemoryManagement/ObjC-MemoryManagement-Prefix.pch";
+				INFOPLIST_FILE = "ObjC-MemoryManagement/ObjC-MemoryManagement-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D30331E3159F7DDA00EF01B2 /* Build configuration list for PBXProject "ObjC-MemoryManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3033205159F7DDB00EF01B2 /* Debug */,
+				D3033206159F7DDB00EF01B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3033207159F7DDB00EF01B2 /* Build configuration list for PBXNativeTarget "ObjC-MemoryManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3033208159F7DDB00EF01B2 /* Debug */,
+				D3033209159F7DDB00EF01B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D30331E0159F7DDA00EF01B2 /* Project object */;
+}

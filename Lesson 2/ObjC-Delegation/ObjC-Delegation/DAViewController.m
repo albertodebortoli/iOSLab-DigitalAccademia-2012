@@ -9,7 +9,6 @@
 #import "DAViewController.h"
 #import "DAModel.h"
 
-
 @interface DAViewController ()
 
 @end
@@ -68,7 +67,6 @@
                                           cancelButtonTitle:@"Cancel"
                                           otherButtonTitles:nil];
     [alert show];
-    [alert release];
 }
 
 #pragma mark - UIAlertViewDelegate

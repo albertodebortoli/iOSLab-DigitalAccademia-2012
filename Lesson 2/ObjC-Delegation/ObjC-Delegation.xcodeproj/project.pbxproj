@@ -248,6 +248,7 @@
 		F045360215A4623C00DD231F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ObjC-Delegation/ObjC-Delegation-Prefix.pch";
 				INFOPLIST_FILE = "ObjC-Delegation/ObjC-Delegation-Info.plist";
@@ -260,6 +261,7 @@
 		F045360315A4623C00DD231F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ObjC-Delegation/ObjC-Delegation-Prefix.pch";
 				INFOPLIST_FILE = "ObjC-Delegation/ObjC-Delegation-Info.plist";

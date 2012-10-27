@@ -29,5 +29,4 @@
     return [NSString stringWithFormat:@"MODEL\n%@, %@, %@", self.fridge, self.counter, self.menu];
 }
 
-
 @end

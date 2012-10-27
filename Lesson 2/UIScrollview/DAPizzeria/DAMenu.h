@@ -19,5 +19,4 @@
 
 - (id)initFromFilesystemAndFridge:(DAFridge *)fridge;
 
-
 @end

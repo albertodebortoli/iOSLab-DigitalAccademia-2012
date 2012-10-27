@@ -13,7 +13,7 @@
 
 - (DAModel *)sharedModel 
 {
-    DAModel *model = ((DAAppDelegate*)[UIApplication sharedApplication].delegate).model;
+    DAModel *model = ((DAAppDelegate *)[UIApplication sharedApplication].delegate).model;
     return model;
 }
 

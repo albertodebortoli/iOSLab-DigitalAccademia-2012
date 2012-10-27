@@ -25,7 +25,6 @@
         self.basePrice = [(NSNumber*)[dict objectForKey:@"BasePrice"] floatValue];
         self.imgPath = [[NSBundle mainBundle] pathForResource:[dict objectForKey:@"ImagePath"] ofType:@"jpg"];
         
-        
         NSMutableArray *tempIngredients = [[NSMutableArray alloc] init];
         for (NSString *ingredientName in [dict objectForKey:@"Ingredients"]) {
             DAIngredient *i = [fridge ingredientByName:ingredientName];
@@ -73,6 +72,5 @@
     }
     return YES;
 }
-
 
 @end

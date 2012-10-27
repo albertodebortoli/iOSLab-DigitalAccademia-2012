@@ -11,6 +11,6 @@
 
 @interface NSObject (DAModel)
 
-- (DAModel*)sharedModel;
+- (DAModel *)sharedModel;
 
 @end

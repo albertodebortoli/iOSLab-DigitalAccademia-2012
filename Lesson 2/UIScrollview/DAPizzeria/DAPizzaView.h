@@ -22,5 +22,4 @@
 
 - (id)initWithFrame:(CGRect)frame andPizza:(DAPizza*)pizza;
 
-
 @end

@@ -12,15 +12,6 @@
 
 @synthesize pizza = _pizza;
 
-- (id)initWithFrame:(CGRect)frame
-{
-    self = [super initWithFrame:frame];
-    if (self) {
-        // Initialization code
-    }
-    return self;
-}
-
 - (id)initWithFrame:(CGRect)frame andPizza:(DAPizza*)pizza
 {
     self = [super initWithFrame:frame];
@@ -89,6 +80,5 @@
     
     return self;
 }
-
 
 @end

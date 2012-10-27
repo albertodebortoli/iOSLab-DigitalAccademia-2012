@@ -11,7 +11,6 @@
 #define kStartingBalance 100.0
 #define kStartingBalanceKey @"kStartingBalanceKey" 
 
-
 @implementation DACounter
 
 @synthesize balance;
@@ -41,8 +40,8 @@
         return [b floatValue];
     }
     else {
-        self.balance = kStartingBalance;
-        return self.balance;
+        [self setBalance:kStartingBalance];
+        return kStartingBalance;
     }
 }
 

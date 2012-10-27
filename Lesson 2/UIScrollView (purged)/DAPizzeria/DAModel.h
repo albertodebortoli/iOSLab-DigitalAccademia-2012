@@ -16,7 +16,6 @@
     DAFridge  *_fridge;
     DACounter *_counter;
     DAMenu *_menu;
-    
 }
 
 @property (nonatomic, strong) DAFridge    *fridge;

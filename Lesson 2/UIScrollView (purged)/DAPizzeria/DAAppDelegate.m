@@ -20,7 +20,6 @@
 @synthesize tabBarController = _tabBarController;
 @synthesize model = _model;
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.model = [[DAModel alloc] init];

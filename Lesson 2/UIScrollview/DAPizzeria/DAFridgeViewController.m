@@ -16,15 +16,7 @@
 @synthesize model = _model;
 @synthesize tableView = _tableView;
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Release any cached data, images, etc that aren't in use.
-}
-
 #pragma mark - View lifecycle
-
-#pragma mark - TODO
 
 - (void)viewDidLoad
 {

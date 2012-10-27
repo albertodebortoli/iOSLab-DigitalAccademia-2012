@@ -15,5 +15,4 @@
     NSLog(@"%@: %@", NSStringFromClass([self class]), self);
 }
 
-
 @end

@@ -59,7 +59,6 @@
     return  all;
 }
 
-
 - (NSInteger) countOfIngredients {
     return [self.ingredients count];
 }
@@ -73,6 +72,5 @@
         return nil;
     }
 }
-
     
 @end

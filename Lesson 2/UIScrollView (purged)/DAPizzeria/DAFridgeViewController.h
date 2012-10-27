@@ -18,5 +18,4 @@
 @property (nonatomic, strong) DAModel *model;
 @property (nonatomic, strong) IBOutlet UITableView *tableView;
 
-
 @end

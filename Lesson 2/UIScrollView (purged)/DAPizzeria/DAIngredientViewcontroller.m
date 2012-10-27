@@ -16,15 +16,6 @@
 @synthesize priceLabel = _priceLabel;
 @synthesize stepper = _stepper;
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil ingredient:(DAIngredient*)ingredient 
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -32,14 +23,6 @@
         _ingredient = ingredient;
     }
     return self;
-}
-
-- (void)didReceiveMemoryWarning
-{
-    // Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
-    
-    // Release any cached data, images, etc that aren't in use.
 }
 
 #pragma mark - View lifecycle
@@ -81,6 +64,5 @@
     self.currentIngredient.quantity = self.stepper.value;
     self.quantityLabel.text = [NSString stringWithFormat:@"%d", self.currentIngredient.quantity];
 }
-
 
 @end

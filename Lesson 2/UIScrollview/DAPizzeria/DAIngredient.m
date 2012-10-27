@@ -45,8 +45,7 @@
     return [NSString stringWithFormat:@"INGREDIENT - Name: %@ (%@), quantity: %d, price: %.2f euro", self.name, self.shortName, self.quantity, self.price];
 }
 
-
-- (NSString*)shortName 
+- (NSString *)shortName 
 {
     if ([self.name length] > kShortNameLength) {
         return [NSString stringWithFormat:@"%@.", [self.name substringToIndex:kShortNameLength]];
@@ -54,6 +53,5 @@
         return shortName;
     }
 }
-
 
 @end

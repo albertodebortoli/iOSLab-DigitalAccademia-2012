@@ -10,16 +10,14 @@
 
 #define kPizzaFilenameAndPLISTRoot @"Menu"
 
-
 @implementation DAMenu
 
 @synthesize pizzas = _pizzas;
 
-
 - (id)initFromFilesystemAndFridge:(DAFridge*)fridge 
 {
     if ([super init]) {
-
+        
         NSMutableArray* tempPizzas = [[NSMutableArray alloc] init];
         
         NSString* filePath = [[NSBundle mainBundle] pathForResource:kPizzaFilenameAndPLISTRoot ofType:@"plist"];
@@ -33,6 +31,7 @@
         
         self.pizzas = [NSArray arrayWithArray:tempPizzas];
     }
+    
     return self;    
 }
 
@@ -40,6 +39,5 @@
 {
     return [NSString stringWithFormat:@"MENU - I have %d pizzas: %@", [self.pizzas count], self.pizzas];
 }
-
 
 @end

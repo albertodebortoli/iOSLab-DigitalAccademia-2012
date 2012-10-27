@@ -1,5 +1,5 @@
 //
-//  DAIngredientViewcontroller.h
+//  DAIngredientViewController.h
 //  DAPizzeria
 //
 //  Created by Enrico Zeffiro on 12/07/12.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "DAIngredient.h"
 
-@interface DAIngredientViewcontroller : UIViewController {
+@interface DAIngredientViewController : UIViewController {
     
     DAIngredient *_ingredient;
     UILabel *_nameLabel;

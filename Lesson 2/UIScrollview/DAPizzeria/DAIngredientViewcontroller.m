@@ -6,9 +6,9 @@
 //  Copyright (c) 2012 H-umus. All rights reserved.
 //
 
-#import "DAIngredientViewcontroller.h"
+#import "DAIngredientViewController.h"
 
-@implementation DAIngredientViewcontroller
+@implementation DAIngredientViewController
 
 @synthesize currentIngredient = _ingredient;
 @synthesize nameLabel = _nameLabel;

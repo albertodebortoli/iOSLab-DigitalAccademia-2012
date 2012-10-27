@@ -9,7 +9,7 @@
 #import "DAFridgeViewController.h"
 #import "DAAppDelegate.h"
 #import "DAIngredient.h"
-#import "DAIngredientViewcontroller.h"
+#import "DAIngredientViewController.h"
 
 @implementation DAFridgeViewController
 
@@ -103,7 +103,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath 
 {
-    DAIngredientViewcontroller *ivc = [[DAIngredientViewcontroller alloc] initWithNibName:@"DAIngredientViewController" bundle:nil ingredient:[self.model.fridge ingredientAtIndexPath:indexPath]];
+    DAIngredientViewController *ivc = [[DAIngredientViewController alloc] initWithNibName:@"DAIngredientViewController" bundle:nil ingredient:[self.model.fridge ingredientAtIndexPath:indexPath]];
     [self.navigationController pushViewController:ivc animated:YES];
 }
 

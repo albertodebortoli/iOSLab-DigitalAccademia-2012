@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0610F9D6164D9E70001D8AF6 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0610F9D4164D9E70001D8AF6 /* icon.png */; };
+		0610F9D7164D9E70001D8AF6 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0610F9D5164D9E70001D8AF6 /* icon@2x.png */; };
 		062E405D15AE07C300FE2B6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062E405C15AE07C300FE2B6E /* UIKit.framework */; };
 		062E405F15AE07C300FE2B6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062E405E15AE07C300FE2B6E /* Foundation.framework */; };
 		062E406115AE07C300FE2B6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062E406015AE07C300FE2B6E /* CoreGraphics.framework */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0610F9D4164D9E70001D8AF6 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		0610F9D5164D9E70001D8AF6 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		062E405815AE07C300FE2B6E /* Cocoa-WebBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cocoa-WebBrowser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		062E405C15AE07C300FE2B6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		062E405E15AE07C300FE2B6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -99,6 +103,8 @@
 		062E406315AE07C300FE2B6E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0610F9D4164D9E70001D8AF6 /* icon.png */,
+				0610F9D5164D9E70001D8AF6 /* icon@2x.png */,
 				062E406415AE07C300FE2B6E /* Cocoa-WebBrowser-Info.plist */,
 				062E406515AE07C300FE2B6E /* InfoPlist.strings */,
 				062E406815AE07C300FE2B6E /* main.m */,
@@ -172,6 +178,8 @@
 				062E407315AE07C300FE2B6E /* DAViewController_iPhone.xib in Resources */,
 				062E407615AE07C300FE2B6E /* DAViewController_iPad.xib in Resources */,
 				062E408415AE08D500FE2B6E /* DAWebBrowserViewController_iPad.xib in Resources */,
+				0610F9D6164D9E70001D8AF6 /* icon.png in Resources */,
+				0610F9D7164D9E70001D8AF6 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

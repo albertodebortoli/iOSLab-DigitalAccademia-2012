@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06716DF9164D9DF6003FF5FD /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 06716DF7164D9DF6003FF5FD /* icon.png */; };
+		06716DFA164D9DF6003FF5FD /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06716DF8164D9DF6003FF5FD /* icon@2x.png */; };
 		D33FFC2A159F0C4E008B70C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33FFC29159F0C4E008B70C7 /* UIKit.framework */; };
 		D33FFC2C159F0C4E008B70C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33FFC2B159F0C4E008B70C7 /* Foundation.framework */; };
 		D33FFC2E159F0C4E008B70C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33FFC2D159F0C4E008B70C7 /* CoreGraphics.framework */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06716DF7164D9DF6003FF5FD /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		06716DF8164D9DF6003FF5FD /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		D33FFC25159F0C4D008B70C7 /* ObjC-basics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ObjC-basics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33FFC29159F0C4E008B70C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D33FFC2B159F0C4E008B70C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -95,6 +99,8 @@
 		D33FFC30159F0C4E008B70C7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				06716DF7164D9DF6003FF5FD /* icon.png */,
+				06716DF8164D9DF6003FF5FD /* icon@2x.png */,
 				D33FFC31159F0C4E008B70C7 /* ObjC-basics-Info.plist */,
 				D33FFC32159F0C4E008B70C7 /* InfoPlist.strings */,
 				D33FFC35159F0C4E008B70C7 /* main.m */,
@@ -155,6 +161,8 @@
 			files = (
 				D33FFC34159F0C4E008B70C7 /* InfoPlist.strings in Resources */,
 				D33FFC40159F0C4E008B70C7 /* DAViewController.xib in Resources */,
+				06716DF9164D9DF6003FF5FD /* icon.png in Resources */,
+				06716DFA164D9DF6003FF5FD /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +286,7 @@
 				D33FFC45159F0C4E008B70C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

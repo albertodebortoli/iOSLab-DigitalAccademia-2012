@@ -19,6 +19,8 @@
 		062E407F15AE083700FE2B6E /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 062E407E15AE083700FE2B6E /* MBProgressHUD.m */; };
 		062E408315AE08D500FE2B6E /* DAWebBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 062E408115AE08D500FE2B6E /* DAWebBrowserViewController.m */; };
 		062E408415AE08D500FE2B6E /* DAWebBrowserViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 062E408215AE08D500FE2B6E /* DAWebBrowserViewController_iPad.xib */; };
+		06E808CC164D9E45002EFD73 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 06E808CA164D9E45002EFD73 /* icon.png */; };
+		06E808CD164D9E45002EFD73 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06E808CB164D9E45002EFD73 /* icon@2x.png */; };
 		06F7CFEA15AE1AA400826CF8 /* DAWebBrowserViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06F7CFE915AE1AA400826CF8 /* DAWebBrowserViewController_iPhone.xib */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +44,8 @@
 		062E408015AE08D500FE2B6E /* DAWebBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAWebBrowserViewController.h; sourceTree = "<group>"; };
 		062E408115AE08D500FE2B6E /* DAWebBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAWebBrowserViewController.m; sourceTree = "<group>"; };
 		062E408215AE08D500FE2B6E /* DAWebBrowserViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DAWebBrowserViewController_iPad.xib; sourceTree = "<group>"; };
+		06E808CA164D9E45002EFD73 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		06E808CB164D9E45002EFD73 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		06F7CFE915AE1AA400826CF8 /* DAWebBrowserViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DAWebBrowserViewController_iPhone.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +110,8 @@
 		062E406315AE07C300FE2B6E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				06E808CA164D9E45002EFD73 /* icon.png */,
+				06E808CB164D9E45002EFD73 /* icon@2x.png */,
 				062E406415AE07C300FE2B6E /* Cocoa-WebBrowser-Info.plist */,
 				062E406515AE07C300FE2B6E /* InfoPlist.strings */,
 				062E406815AE07C300FE2B6E /* main.m */,
@@ -192,6 +198,8 @@
 				062E407615AE07C300FE2B6E /* DAViewController_iPad.xib in Resources */,
 				062E408415AE08D500FE2B6E /* DAWebBrowserViewController_iPad.xib in Resources */,
 				06F7CFEA15AE1AA400826CF8 /* DAWebBrowserViewController_iPhone.xib in Resources */,
+				06E808CC164D9E45002EFD73 /* icon.png in Resources */,
+				06E808CD164D9E45002EFD73 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

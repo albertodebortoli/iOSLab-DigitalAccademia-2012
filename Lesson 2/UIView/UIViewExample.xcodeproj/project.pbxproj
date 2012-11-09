@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0676A46C164D9EF400963976 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0676A46A164D9EF400963976 /* icon.png */; };
+		0676A46D164D9EF400963976 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0676A46B164D9EF400963976 /* icon@2x.png */; };
 		D9FD612E15B2DCD30000D381 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FD612D15B2DCD30000D381 /* UIKit.framework */; };
 		D9FD613015B2DCD30000D381 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FD612F15B2DCD30000D381 /* Foundation.framework */; };
 		D9FD613215B2DCD30000D381 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FD613115B2DCD30000D381 /* CoreGraphics.framework */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0676A46A164D9EF400963976 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		0676A46B164D9EF400963976 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		D9FD612915B2DCD30000D381 /* UIViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9FD612D15B2DCD30000D381 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D9FD612F15B2DCD30000D381 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -90,6 +94,8 @@
 		D9FD613415B2DCD30000D381 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0676A46A164D9EF400963976 /* icon.png */,
+				0676A46B164D9EF400963976 /* icon@2x.png */,
 				D9FD613515B2DCD30000D381 /* UIViewExample-Info.plist */,
 				D9FD613615B2DCD30000D381 /* InfoPlist.strings */,
 				D9FD613915B2DCD30000D381 /* main.m */,
@@ -150,6 +156,8 @@
 			files = (
 				D9FD613815B2DCD30000D381 /* InfoPlist.strings in Resources */,
 				D9FD614415B2DCD40000D381 /* DAViewController.xib in Resources */,
+				0676A46C164D9EF400963976 /* icon.png in Resources */,
+				0676A46D164D9EF400963976 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

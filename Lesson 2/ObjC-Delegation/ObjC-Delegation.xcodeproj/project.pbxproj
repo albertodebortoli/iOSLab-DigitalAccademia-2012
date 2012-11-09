@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		064663EC164D9E8D00084C8D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 064663EA164D9E8D00084C8D /* icon.png */; };
+		064663ED164D9E8D00084C8D /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 064663EB164D9E8D00084C8D /* icon@2x.png */; };
 		D908754315A5BE1C00027984 /* DAModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D908754215A5BE1C00027984 /* DAModel.m */; };
 		F04535E815A4623C00DD231F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F04535E715A4623C00DD231F /* UIKit.framework */; };
 		F04535EA15A4623C00DD231F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F04535E915A4623C00DD231F /* Foundation.framework */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		064663EA164D9E8D00084C8D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		064663EB164D9E8D00084C8D /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		D908754115A5BE1C00027984 /* DAModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAModel.h; sourceTree = "<group>"; };
 		D908754215A5BE1C00027984 /* DAModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAModel.m; sourceTree = "<group>"; };
 		F04535E315A4623C00DD231F /* ObjC-Delegation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ObjC-Delegation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +104,8 @@
 		F04535EE15A4623C00DD231F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				064663EA164D9E8D00084C8D /* icon.png */,
+				064663EB164D9E8D00084C8D /* icon@2x.png */,
 				F04535EF15A4623C00DD231F /* ObjC-Delegation-Info.plist */,
 				F04535F015A4623C00DD231F /* InfoPlist.strings */,
 				F04535F315A4623C00DD231F /* main.m */,
@@ -162,6 +168,8 @@
 			files = (
 				F04535F215A4623C00DD231F /* InfoPlist.strings in Resources */,
 				F04535FE15A4623C00DD231F /* DAViewController.xib in Resources */,
+				064663EC164D9E8D00084C8D /* icon.png in Resources */,
+				064663ED164D9E8D00084C8D /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

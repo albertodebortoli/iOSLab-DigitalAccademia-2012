@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06716E02164D9E2F003FF5FD /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 06716E00164D9E2F003FF5FD /* icon.png */; };
+		06716E03164D9E2F003FF5FD /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06716E01164D9E2F003FF5FD /* icon@2x.png */; };
 		D30331EE159F7DDB00EF01B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30331ED159F7DDB00EF01B2 /* UIKit.framework */; };
 		D30331F0159F7DDB00EF01B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30331EF159F7DDB00EF01B2 /* Foundation.framework */; };
 		D30331F2159F7DDB00EF01B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30331F1159F7DDB00EF01B2 /* CoreGraphics.framework */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06716E00164D9E2F003FF5FD /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		06716E01164D9E2F003FF5FD /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		D30331E9159F7DDB00EF01B2 /* ObjC-MemoryManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ObjC-MemoryManagement.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D30331ED159F7DDB00EF01B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D30331EF159F7DDB00EF01B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -95,6 +99,8 @@
 		D30331F4159F7DDB00EF01B2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				06716E00164D9E2F003FF5FD /* icon.png */,
+				06716E01164D9E2F003FF5FD /* icon@2x.png */,
 				D30331F5159F7DDB00EF01B2 /* ObjC-MemoryManagement-Info.plist */,
 				D30331F6159F7DDB00EF01B2 /* InfoPlist.strings */,
 				D30331F9159F7DDB00EF01B2 /* main.m */,
@@ -155,6 +161,8 @@
 			files = (
 				D30331F8159F7DDB00EF01B2 /* InfoPlist.strings in Resources */,
 				D3033204159F7DDB00EF01B2 /* DAViewController.xib in Resources */,
+				06716E02164D9E2F003FF5FD /* icon.png in Resources */,
+				06716E03164D9E2F003FF5FD /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

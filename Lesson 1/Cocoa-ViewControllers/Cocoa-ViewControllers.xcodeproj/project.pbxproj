@@ -19,6 +19,8 @@
 		0659132615AC03FA00983B92 /* DASecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0659132415AC03FA00983B92 /* DASecondViewController.xib */; };
 		0659132F15AC062600983B92 /* DAPresentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0659132D15AC062600983B92 /* DAPresentedViewController.m */; };
 		0659133015AC062600983B92 /* DAPresentedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0659132E15AC062600983B92 /* DAPresentedViewController.xib */; };
+		06716DF0164D9DCD003FF5FD /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 06716DEE164D9DCD003FF5FD /* icon.png */; };
+		06716DF1164D9DCD003FF5FD /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06716DEF164D9DCD003FF5FD /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,8 @@
 		0659132C15AC062600983B92 /* DAPresentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAPresentedViewController.h; sourceTree = "<group>"; };
 		0659132D15AC062600983B92 /* DAPresentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAPresentedViewController.m; sourceTree = "<group>"; };
 		0659132E15AC062600983B92 /* DAPresentedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DAPresentedViewController.xib; sourceTree = "<group>"; };
+		06716DEE164D9DCD003FF5FD /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		06716DEF164D9DCD003FF5FD /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 		0659130C15AC038C00983B92 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				06716DEE164D9DCD003FF5FD /* icon.png */,
+				06716DEF164D9DCD003FF5FD /* icon@2x.png */,
 				0659130D15AC038C00983B92 /* Cocoa-ViewControllers-Info.plist */,
 				0659130E15AC038C00983B92 /* InfoPlist.strings */,
 				0659131115AC038C00983B92 /* main.m */,
@@ -169,6 +175,8 @@
 				0659131C15AC038D00983B92 /* DAFirstViewController.xib in Resources */,
 				0659132615AC03FA00983B92 /* DASecondViewController.xib in Resources */,
 				0659133015AC062600983B92 /* DAPresentedViewController.xib in Resources */,
+				06716DF0164D9DCD003FF5FD /* icon.png in Resources */,
+				06716DF1164D9DCD003FF5FD /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +303,7 @@
 				0659132115AC038D00983B92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

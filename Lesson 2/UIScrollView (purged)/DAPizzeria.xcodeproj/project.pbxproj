@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06F3E3A4164D9ED00037980A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 06F3E3A2164D9ED00037980A /* icon.png */; };
+		06F3E3A5164D9ED00037980A /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06F3E3A3164D9ED00037980A /* icon@2x.png */; };
 		D9B4F23715ABEEAE00C19ED4 /* Fridge.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9B4F23615ABEEAE00C19ED4 /* Fridge.plist */; };
 		D9B4F23A15ABF05200C19ED4 /* DACounter.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B4F23915ABF05200C19ED4 /* DACounter.m */; };
 		D9B4F23F15ABF13700C19ED4 /* DAObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B4F23E15ABF13700C19ED4 /* DAObject.m */; };
@@ -179,6 +181,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06F3E3A2164D9ED00037980A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		06F3E3A3164D9ED00037980A /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		D9B4F23615ABEEAE00C19ED4 /* Fridge.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Fridge.plist; sourceTree = "<group>"; };
 		D9B4F23815ABF05200C19ED4 /* DACounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DACounter.h; sourceTree = "<group>"; };
 		D9B4F23915ABF05200C19ED4 /* DACounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DACounter.m; sourceTree = "<group>"; };
@@ -693,6 +697,8 @@
 		D9E943A215A62CB0008300FE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				06F3E3A2164D9ED00037980A /* icon.png */,
+				06F3E3A3164D9ED00037980A /* icon@2x.png */,
 				D9E943A315A62CB0008300FE /* DAPizzeria-Info.plist */,
 				D9E943A415A62CB0008300FE /* InfoPlist.strings */,
 				D9E943A715A62CB0008300FE /* main.m */,
@@ -951,6 +957,8 @@
 				D9FD617115B3138A0000D381 /* prosciuttocotto.jpg in Resources */,
 				D9FD617215B3138A0000D381 /* prosciuttocrudo.jpg in Resources */,
 				D9FD618715B322090000D381 /* margherita.jpg in Resources */,
+				06F3E3A4164D9ED00037980A /* icon.png in Resources */,
+				06F3E3A5164D9ED00037980A /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

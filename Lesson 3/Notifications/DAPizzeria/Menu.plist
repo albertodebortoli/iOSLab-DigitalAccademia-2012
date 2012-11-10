@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Menu</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Prosciutto crudo</string>
+			<key>Ingredients</key>
+			<array>
+				<string>Prosciutto crudo</string>
+				<string>Pomodoro</string>
+				<string>Mozzarella</string>
+			</array>
+			<key>BasePrice</key>
+			<integer>5</integer>
+			<key>ImagePath</key>
+			<string>prosciuttocrudo</string>
+			<key>Description</key>
+			<string>Con prosciutto San Daniele</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Margherita</string>
+			<key>Ingredients</key>
+			<array>
+				<string>Pomodoro</string>
+				<string>Mozzarella</string>
+			</array>
+			<key>BasePrice</key>
+			<integer>5</integer>
+			<key>ImagePath</key>
+			<string>margherita</string>
+			<key>Description</key>
+			<string>La pizza classica napoletana</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Bufala</string>
+			<key>Ingredients</key>
+			<array>
+				<string>Pomodoro</string>
+				<string>Mozzarella di Bufala</string>
+			</array>
+			<key>BasePrice</key>
+			<integer>5</integer>
+			<key>ImagePath</key>
+			<string>bufala</string>
+			<key>Description</key>
+			<string>La bufala campana </string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Prosciutto cotto</string>
+			<key>Ingredients</key>
+			<array>
+				<string>Prosciutto cotto</string>
+				<string>Pomodoro</string>
+				<string>Mozzarella</string>
+			</array>
+			<key>BasePrice</key>
+			<integer>5</integer>
+			<key>ImagePath</key>
+			<string>prosciuttocotto</string>
+			<key>Description</key>
+			<string>Al prosciutto cotto di Praga</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Fridge</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Pomodoro</string>
+			<key>Quantity</key>
+			<integer>5</integer>
+			<key>Price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Mozzarella</string>
+			<key>Quantity</key>
+			<integer>10</integer>
+			<key>Price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Mozzarella di Bufala</string>
+			<key>Quantity</key>
+			<integer>5</integer>
+			<key>Price</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Origano</string>
+			<key>Quantity</key>
+			<integer>20</integer>
+			<key>Price</key>
+			<real>0.5</real>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Prosciutto crudo</string>
+			<key>Quantity</key>
+			<integer>5</integer>
+			<key>Price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Prosciutto cotto</string>
+			<key>Quantity</key>
+			<integer>5</integer>
+			<key>Price</key>
+			<real>1.5</real>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Wurstel</string>
+			<key>Quantity</key>
+			<integer>10</integer>
+			<key>Price</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

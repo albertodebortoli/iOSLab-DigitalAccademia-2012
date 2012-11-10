@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		067E3920164DA4AC00D481B2 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 067E391E164DA4AC00D481B2 /* icon.png */; };
+		067E3921164DA4AC00D481B2 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 067E391F164DA4AC00D481B2 /* icon@2x.png */; };
+		1E78CB8A15B835680066A712 /* bufala.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E78CB8915B835680066A712 /* bufala.jpg */; };
+		774D26031414267B00C249A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774D26021414267B00C249A5 /* UIKit.framework */; };
+		774D26051414267B00C249A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774D26041414267B00C249A5 /* Foundation.framework */; };
+		774D26071414267B00C249A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774D26061414267B00C249A5 /* CoreGraphics.framework */; };
+		774D260F1414267B00C249A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 774D260E1414267B00C249A5 /* main.m */; };
+		774D26131414267B00C249A5 /* GesturesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 774D26121414267B00C249A5 /* GesturesAppDelegate.m */; };
+		774D26161414267B00C249A5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 774D26141414267B00C249A5 /* MainWindow.xib */; };
+		774D26191414267B00C249A5 /* GesturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 774D26181414267B00C249A5 /* GesturesViewController.m */; };
+		774D261C1414267B00C249A5 /* GesturesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 774D261A1414267B00C249A5 /* GesturesViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		067E391E164DA4AC00D481B2 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		067E391F164DA4AC00D481B2 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		1E78CB8915B835680066A712 /* bufala.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bufala.jpg; sourceTree = "<group>"; };
+		774D25FE1414267B00C249A5 /* DAGestureRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DAGestureRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		774D26021414267B00C249A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		774D26041414267B00C249A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		774D26061414267B00C249A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		774D260A1414267B00C249A5 /* DAGestureRecognizer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DAGestureRecognizer-Info.plist"; sourceTree = "<group>"; };
+		774D260E1414267B00C249A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		774D26101414267B00C249A5 /* DAGestureRecognizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DAGestureRecognizer-Prefix.pch"; sourceTree = "<group>"; };
+		774D26111414267B00C249A5 /* GesturesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GesturesAppDelegate.h; sourceTree = "<group>"; };
+		774D26121414267B00C249A5 /* GesturesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GesturesAppDelegate.m; sourceTree = "<group>"; };
+		774D26151414267B00C249A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		774D26171414267B00C249A5 /* GesturesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GesturesViewController.h; sourceTree = "<group>"; };
+		774D26181414267B00C249A5 /* GesturesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GesturesViewController.m; sourceTree = "<group>"; };
+		774D261B1414267B00C249A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GesturesViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		774D25FB1414267B00C249A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774D26031414267B00C249A5 /* UIKit.framework in Frameworks */,
+				774D26051414267B00C249A5 /* Foundation.framework in Frameworks */,
+				774D26071414267B00C249A5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		774D25F31414267B00C249A5 = {
+			isa = PBXGroup;
+			children = (
+				774D26081414267B00C249A5 /* Gestures */,
+				774D26011414267B00C249A5 /* Frameworks */,
+				774D25FF1414267B00C249A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		774D25FF1414267B00C249A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				774D25FE1414267B00C249A5 /* DAGestureRecognizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		774D26011414267B00C249A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				774D26021414267B00C249A5 /* UIKit.framework */,
+				774D26041414267B00C249A5 /* Foundation.framework */,
+				774D26061414267B00C249A5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		774D26081414267B00C249A5 /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				1E78CB8915B835680066A712 /* bufala.jpg */,
+				774D26111414267B00C249A5 /* GesturesAppDelegate.h */,
+				774D26121414267B00C249A5 /* GesturesAppDelegate.m */,
+				774D26141414267B00C249A5 /* MainWindow.xib */,
+				774D26171414267B00C249A5 /* GesturesViewController.h */,
+				774D26181414267B00C249A5 /* GesturesViewController.m */,
+				774D261A1414267B00C249A5 /* GesturesViewController.xib */,
+				774D26091414267B00C249A5 /* Supporting Files */,
+			);
+			path = Gestures;
+			sourceTree = "<group>";
+		};
+		774D26091414267B00C249A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				067E391E164DA4AC00D481B2 /* icon.png */,
+				067E391F164DA4AC00D481B2 /* icon@2x.png */,
+				774D260A1414267B00C249A5 /* DAGestureRecognizer-Info.plist */,
+				774D260E1414267B00C249A5 /* main.m */,
+				774D26101414267B00C249A5 /* DAGestureRecognizer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		774D25FD1414267B00C249A5 /* DAGestureRecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 774D261F1414267B00C249A5 /* Build configuration list for PBXNativeTarget "DAGestureRecognizer" */;
+			buildPhases = (
+				774D25FA1414267B00C249A5 /* Sources */,
+				774D25FB1414267B00C249A5 /* Frameworks */,
+				774D25FC1414267B00C249A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DAGestureRecognizer;
+			productName = Gestures;
+			productReference = 774D25FE1414267B00C249A5 /* DAGestureRecognizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		774D25F51414267B00C249A5 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 774D25F81414267B00C249A5 /* Build configuration list for PBXProject "DAGestureRecognizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 774D25F31414267B00C249A5;
+			productRefGroup = 774D25FF1414267B00C249A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				774D25FD1414267B00C249A5 /* DAGestureRecognizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		774D25FC1414267B00C249A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774D26161414267B00C249A5 /* MainWindow.xib in Resources */,
+				774D261C1414267B00C249A5 /* GesturesViewController.xib in Resources */,
+				1E78CB8A15B835680066A712 /* bufala.jpg in Resources */,
+				067E3920164DA4AC00D481B2 /* icon.png in Resources */,
+				067E3921164DA4AC00D481B2 /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		774D25FA1414267B00C249A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774D260F1414267B00C249A5 /* main.m in Sources */,
+				774D26131414267B00C249A5 /* GesturesAppDelegate.m in Sources */,
+				774D26191414267B00C249A5 /* GesturesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		774D26141414267B00C249A5 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				774D26151414267B00C249A5 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		774D261A1414267B00C249A5 /* GesturesViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				774D261B1414267B00C249A5 /* en */,
+			);
+			name = GesturesViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		774D261D1414267B00C249A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		774D261E1414267B00C249A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		774D26201414267B00C249A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Fabio Carraro (S97LETVVS5)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gestures/DAGestureRecognizer-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Gestures/DAGestureRecognizer-Info.plist";
+				PRODUCT_NAME = DAGestureRecognizer;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F5BEE83A-7EF7-484F-9D63-02A5B2369EAB";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		774D26211414267B00C249A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gestures/DAGestureRecognizer-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Gestures/DAGestureRecognizer-Info.plist";
+				PRODUCT_NAME = DAGestureRecognizer;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		774D25F81414267B00C249A5 /* Build configuration list for PBXProject "DAGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				774D261D1414267B00C249A5 /* Debug */,
+				774D261E1414267B00C249A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		774D261F1414267B00C249A5 /* Build configuration list for PBXNativeTarget "DAGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				774D26201414267B00C249A5 /* Debug */,
+				774D26211414267B00C249A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 774D25F51414267B00C249A5 /* Project object */;
+}

@@ -41,8 +41,8 @@
         return [b floatValue];
     }
     else {
-        self.balance = kStartingBalance;
-        return self.balance;
+        _balance = kStartingBalance;
+        return _balance;
     }
 }
 

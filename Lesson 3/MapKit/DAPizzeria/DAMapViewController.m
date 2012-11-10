@@ -34,8 +34,8 @@
     self.mapView.mapType = MKMapTypeStandard;
     self.mapView.region = MKCoordinateRegionMake(CLLocationCoordinate2DMake(kDALatitude, kDALongitude), MKCoordinateSpanMake(0.01, 0.01));
     
-    //[self showStaticAnnotationsForLocation:CLLocationCoordinate2DMake(kDALatitude, kDALongitude)];
-    //[self showDynamicAnnotationsForLocation:CLLocationCoordinate2DMake(kDALatitude, kDALongitude)];
+    [self showStaticAnnotationsForLocation:CLLocationCoordinate2DMake(kDALatitude, kDALongitude)];
+    [self showDynamicAnnotationsForLocation:CLLocationCoordinate2DMake(kDALatitude, kDALongitude)];
 }
 
 

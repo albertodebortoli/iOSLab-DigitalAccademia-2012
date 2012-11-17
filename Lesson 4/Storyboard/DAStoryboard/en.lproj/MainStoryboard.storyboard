@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Ef5-Ay-eb2">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller - Impostazioni-->
+        <scene sceneID="w5Y-84-o6M">
+            <objects>
+                <viewController id="h7i-q3-ZTy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NT8-yn-tYQ">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="QUD-gP-m3E">
+                                <rect key="frame" x="95" y="27" width="130" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Scegli il colore">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="2" kind="push" id="81N-Ze-GFZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Impostazioni" id="LsV-xC-qvd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jGX-bn-aR1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="188" y="222"/>
+        </scene>
+        <!--Color Chooser View Controller - Scegli il colore-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="DAColorChooserViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MuN-wk-mkQ">
+                                <rect key="frame" x="20" y="125" width="72" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Red">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="6Dk-Rx-JQW" kind="push" identifier="red" id="d05-NN-bwh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="F8f-gJ-0mR">
+                                <rect key="frame" x="124" y="125" width="72" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Green">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="6Dk-Rx-JQW" kind="push" identifier="green" id="iKG-dy-7Ys"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0Ug-tl-8Vb">
+                                <rect key="frame" x="228" y="125" width="72" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Blu">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="6Dk-Rx-JQW" kind="push" identifier="blu" id="gOk-EH-Ozs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="H5W-di-K4R">
+                                <rect key="frame" x="124" y="200" width="72" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Any">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="anyButtonTapped:" destination="2" eventType="touchUpInside" id="Edc-tf-OHJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Scegli il colore" id="ZqN-dR-QMt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="774" y="222"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="I9E-Gc-XZ8">
+            <objects>
+                <viewController storyboardIdentifier="pippoViewController" id="ErP-FZ-VJv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SDm-jl-gaS">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="U51-xM-wdF">
+                                <rect key="frame" x="5" y="0.0" width="320" height="460"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dOu-Xg-55E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="783" y="903"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ffj-Ro-Uos">
+            <objects>
+                <viewController id="6Dk-Rx-JQW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wTI-uZ-QAk">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5Po-ST-YxY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0YI-QZ-OjW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1343" y="222"/>
+        </scene>
+        <!--View Controller - Red-->
+        <scene sceneID="9io-Or-cys">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nw5-fj-Lf4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="Yud-py-ZC3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gb8-OX-EHu">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.89130434782608692" green="0.0084628056630137311" blue="0.15632917908425473" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Red" id="eND-0k-VRe"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1885" y="-446"/>
+        </scene>
+        <!--View Controller - Green-->
+        <scene sceneID="WcZ-zv-KIN">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dqc-nc-feC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="QHi-Zn-KdC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KGX-IG-kxp">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.27570601454115051" green="1" blue="0.18135952345183215" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Green" id="Vgb-7w-vRE"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1885" y="236"/>
+        </scene>
+        <!--View Controller - Blu-->
+        <scene sceneID="xiM-tb-z3t">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yg7-oK-lOw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="Up0-Nh-50e" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="012-Qn-6I9">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.073569866165617781" green="0.00053359762917992715" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Blu" id="1yU-Q5-YHr"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1885" y="867"/>
+        </scene>
+        <!--Navigation Controller - Colori-->
+        <scene sceneID="cN4-cN-KxZ">
+            <objects>
+                <navigationController id="a8G-XV-8r6" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Colori" badgeValue="1" id="Yjg-yP-sER"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="dGl-uJ-eah">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="h7i-q3-ZTy" kind="relationship" relationship="rootViewController" id="Gdg-g9-gh8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P2d-mj-DaZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-357" y="222"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mvD-pd-y6C">
+            <objects>
+                <viewController id="mQt-yi-uS7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PgM-aJ-6WY">
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="topRated" id="lo3-es-RZt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OA4-V0-2ac" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-357" y="895"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="ffe-9Y-s2o">
+            <objects>
+                <tabBarController id="Ef5-Ay-eb2" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="MAS-iU-6lQ">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="a8G-XV-8r6" kind="relationship" relationship="viewControllers" id="1kU-Tq-kBF"/>
+                        <segue destination="mQt-yi-uS7" kind="relationship" relationship="viewControllers" id="PU5-An-Boa"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Wd-vd-QUA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-980" y="584"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="DAColorChooserViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DAColorChooserViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="anyButtonTapped:"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="d05-NN-bwh"/>
+    </inferredMetricsTieBreakers>
+</document>

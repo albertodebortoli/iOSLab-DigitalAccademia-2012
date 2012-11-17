@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		063493C916543E570036B3F7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 063493C716543E570036B3F7 /* icon.png */; };
+		063493CA16543E570036B3F7 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 063493C816543E570036B3F7 /* icon@2x.png */; };
 		06D7297E1651756200320EFA /* iPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D7297C1651756200320EFA /* iPhoneViewController.xib */; };
 		1E6F116715B4406A00684D25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6F116415B4406A00684D25 /* AppDelegate.m */; };
 		1E6F116815B4406A00684D25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6F116615B4406A00684D25 /* ViewController.m */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		063493C716543E570036B3F7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = imagePicker/icon.png; sourceTree = SOURCE_ROOT; };
+		063493C816543E570036B3F7 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "imagePicker/icon@2x.png"; sourceTree = SOURCE_ROOT; };
 		06D7297D1651756200320EFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = imagePicker/en.lproj/iPhoneViewController.xib; sourceTree = SOURCE_ROOT; };
 		1E6F116315B4406A00684D25 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = imagePicker/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		1E6F116415B4406A00684D25 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = imagePicker/AppDelegate.m; sourceTree = SOURCE_ROOT; };
@@ -93,6 +97,8 @@
 		3B9BCCDB144F33B600E9D062 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				063493C716543E570036B3F7 /* icon.png */,
+				063493C816543E570036B3F7 /* icon@2x.png */,
 				1E78CB9115B839F00066A712 /* iOS-ImagePicker.pch */,
 				1E78CB9215B839FB0066A712 /* iOS-ImagePicker.plist */,
 				1E6F117215B4408D00684D25 /* main.m */,
@@ -154,6 +160,8 @@
 				1E6F116B15B4407300684D25 /* iPadViewController.xib in Resources */,
 				1E78CB9315B839FB0066A712 /* iOS-ImagePicker.plist in Resources */,
 				06D7297E1651756200320EFA /* iPhoneViewController.xib in Resources */,
+				063493C916543E570036B3F7 /* icon.png in Resources */,
+				063493CA16543E570036B3F7 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
